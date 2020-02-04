@@ -196,6 +196,14 @@ a {
     margin: 5px;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 @media(min-width: 64em) {
     .sidebar {
@@ -226,11 +234,5 @@ a {
     
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
+
 
