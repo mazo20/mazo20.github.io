@@ -226,7 +226,11 @@ a {
     }
 
     header {
-        background-color: #000;
+        background-color: #222;
+    }
+    
+    .article-header i {
+        background-color: #333;
     }
 }
 
