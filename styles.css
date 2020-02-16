@@ -211,28 +211,7 @@ a {
     padding: 30px;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-    }
 
-    body,
-    header .site-name {
-        color: #ddd;
-    }
-
-    .item-list > li {
-        background-color: #333;
-    }
-
-    header {
-        background-color: #222;
-    }
-    
-    .article-header i {
-        background-color: #333;
-    }
-}
 
 .brand-title,
 .brand-tagline {
@@ -369,5 +348,32 @@ pre code .dotAccess {
 
 pre code .preprocessing {
     color: #b68a00;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+    }
+
+    body,
+    header .site-name {
+        color: #ddd;
+    }
+
+    .item-list > li {
+        background-color: #333;
+    }
+
+    header {
+        background-color: #111;
+    }
+    
+    .article-header i {
+        background-color: #333;
+    }
+    
+    code {
+        background-color: rgba(50, 51, 56, 1);
+    }
 }
 
